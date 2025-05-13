@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Социальная сеть для специалистов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo" onclick="goHome()">ProConnect</div>
+    <nav>
+      <ul>
+        <li><a href="#video">Видеоролик</a></li>
+        <li><a href="#messages">Сообщения</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="video">
+      <div class="video-container">
+        <iframe width="560" height="315" src="Обучающее видео.mp4" title="Обучающий видеоролик" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Сообщество специалистов -->
+    <section id="messages">
+      <div class="specialists">
+        <!-- Карточки специалистов -->
+        <div class="specialist-card">
+          <img src="Дарья Кретюк.jpeg" alt="Специалист 1">
+          <h3>Дарья Кретюк</h3>
+          <p>Я являюсь Team Lead'ом в студии разработки мобильных приложений EVO Mobile</p>
+          <a href="https://t.me/evomobile_ru" target="_blank"><button>Написать сообщение</button></a>
+        </div>
+        <div class="specialist-card">
+          <img src="Дмитрий Мельников.jpeg" alt="Специалист 2">
+          <h3>Дмитрий Мельников</h3>
+          <p>Я занимаюсь разработкой корпоративного многопользовательского клиент-серверного ПО (CRM, ERP, MES) и располагаю собственными технологиями в этой отрасли.</p>
+          <a href="https://t.me/dmamel" target="_blank"><button>Написать сообщение</button></a>
+        </div>
+        <div class="specialist-card">
+          <img src="Дмитрий Осецкий.jpeg" alt="Специалист 3">
+          <h3>Дмитрий Осецкий</h3>
+          <p>Программист-профессионал с большим практическим опытом проектирования, разработки и поддержки сайтов, порталов, интернет-магазинов, CRM, сложных и высоконагруженных проектов.</p>
+          <a href="https://t.me/Dmitri07" target="_blank"><button>Написать сообщение</button></a>
+        </div>
+        <div class="specialist-card">
+          <img src="Михаил Васкович.jpeg" alt="Специалист 4">
+          <h3>Михаил Васкович</h3>
+          <p>Сайты / Сайт «под ключ», Сайты / Веб-программирование, Программирование / Веб-программирование, Сайты / Доработка сайтов, Программирование / Разработка CRM и ERP, AI — искусственный интеллект / Нейронные сети, Сайты / Создание MVP, Программирование / Создание MVP</p>
+          <a href="https://t.me/m_elvotech" target="_blank"><button>Написать сообщение</button></a>
+        </div>
+        <div class="specialist-card">
+          <img src="Дмитрий Резников.jpeg" alt="Специалист 5">
+          <h3>Дмитрий Резников</h3>
+          <p>Программирование / 1С-программирование, Программирование / Разработка Чат-ботов</p>
+          <a href="https://t.me/demobot_ru" target="_blank"><button>Написать сообщение</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Социальная сеть для специалистов. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
